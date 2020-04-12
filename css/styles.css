@@ -1,0 +1,13 @@
+
+.hero {
+  min-height: 750px;
+  background-image: url("../images/ParkerSnowshoeing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.font-ubuntu {
+  font-family: 'Ubuntu';
+  color: #2a3e45;
+}
