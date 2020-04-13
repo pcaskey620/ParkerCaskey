@@ -2,6 +2,10 @@
 p {
   font-family: 'Raleway';
   color: rgba(28,54,83,0.6);
+  font-size: 1.5rem;
+}
+footer p {
+  font-size: 1rem;
 }
 a {
   color: #2a3e45;
@@ -20,12 +24,32 @@ a:hover{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .icon {
   margin-right: 1rem;
   margin-left: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  color: #2a3e45;
   font-size: 40px;
+}
+.bg-grey {
+  background-color:#2a3e45;
+}
+.bg-grey a {
+  color: white;
+}
+section.container {
+  color: #2a3e45;
+}
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8, .wp9 {
+  visibility: hidden
+}
+.fadeIn {
+  visibility: visible
 }
