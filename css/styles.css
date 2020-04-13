@@ -1,4 +1,17 @@
-
+p {
+  font-family: 'Raleway';
+  color: rgba(28,54,83,0.6);
+}
+a {
+  color: #2a3e45;
+}
+a:hover{
+  color: #2a3e45;
+}
+.font-ubuntu {
+  font-family: 'Ubuntu';
+  color: #2a3e45;
+}
 .hero {
   min-height: 750px;
   background-image: url("../images/ParkerSnowshoeing.jpg");
@@ -7,7 +20,11 @@
   background-size: cover;
   position: relative;
 }
-.font-ubuntu {
-  font-family: 'Ubuntu';
+.icon {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   color: #2a3e45;
+  font-size: 40px;
 }
