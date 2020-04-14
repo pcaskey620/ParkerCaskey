@@ -12,6 +12,7 @@ footer p {
 }
 a {
   color: #2a3e45;
+  font-family: 'Raleway', 'Open Sans', sans-serif;
 }
 a:hover{
   color: #2a3e45;
@@ -63,6 +64,16 @@ h1, h2, h3, h4, h5 {
 .scroll-down .fas {
   padding-top: 40px;
 }
+#nav {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  height: 80px;
+  background-color: #2a3e45;
+}
+#profile {
+  padding-top: 100px;
+}
 .icon {
   font-size: 40px;
 }
@@ -81,7 +92,7 @@ section.container {
 .fadeIn {
   visibility: visible
 }
-@media (max-width: 767px) {
+@media (max-width: 990px) {
   .hero .scroll-down {
     width: 100%;
     left: 0px;
@@ -102,5 +113,29 @@ section.container {
 .no-bottom-border {
   border-bottom: none !important;
 };
-
-        
+.navbar-toggler-icon i {
+  border-width: thin;
+  border-radius: .1rem;
+  border-color: white;
+}
+#nav a:hover {
+  color: white;
+  border-bottom: solid;
+  border-width: thin;
+}
+.nav-link {
+  font-size: 1.5rem;
+  color: white;
+  border-bottom: none;
+}
+@media (min-width: 992px)
+  {
+  .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 1rem;
+      padding-left: 1rem;
+  }
+}
+.mx-a {
+  margin-left: auto;
+  margin-right: auto;
+}

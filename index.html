@@ -58,41 +58,55 @@
         </a>
     </section> 
 
-    <section class="pt-3">
-        <div id="profile" class="container text-center">
-            <div class="wp1">
-                <h2 class="font-ubuntu">Profile</h2>
-                <p class="lead font-raleway">I'm a full stack developer</p>
+    <nav id="nav" class="navbar navbar-expand-lg d-none d-sm-none d-md-none d-lg-block">
+        <button class="navbar-toggler mx-a" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <i class="fas fa-bars text-white"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav d-flex mx-a">
+            <a href="#experience" class="text-white nav-item nav-link" title="Experience">Experience</a>
+            <a href="#experience" class="text-white nav-item nav-link" title="Education">Education</a>
+            <a href="#experience" class="text-white nav-item nav-link" title="Skills">Skills</a>
+            <a href="#experience" class="text-white nav-item nav-link" title="Contact">Contact</a>    
+          </div>
+        </div>
+    </nav>
+    
+    <section id="profile" class="container text-center">
+        <div class="wp1">
+            <h2 class="font-ubuntu">Profile</h2>
+            <p class="lead font-raleway">I'm a full stack developer</p>
+        </div>
+        <hr>
+        <div class="row wp2">
+            <div class="col-md-4">
+                <h3>About me</h3>
+                <p>
+                    I am a passionate software developer. I enjoying building beautiful online experiences.
+                    I love spending time learning new technology and working on personal projects. 
+                    Also I like working in a team collaborating with smart people.		
+                </p>
             </div>
-            <hr>
-            <div class="row wp2">
-                <div class="col-md-4">
-                    <h3>About me</h3>
-                    <p>
-                        I am a passionate software developer. I enjoying building beautiful online experiences.
-                        I love spending time learning new technology and working on personal projects. 
-                        Also I like working in a team collaborating with smart people.		
-                    </p>
-                </div>
-                <div class="col-md-4 text-center py-2">
-                    <img src="images/Parker.jpg" class="rounded-circle" alt="Parker Caskey" width="246" height="246">
-                </div>
-                <div class="col-md-4">
-                    <h3>Details</h3>
-                    <p>
-                        <strong>Name:</strong> Parker Caskey<br>
-                        <strong>Age:</strong> 29 years<br>
-                        <strong>Location:</strong> Earth		
-                    </p>
-                </div>
+            <div class="col-md-4 text-center py-2">
+                <img src="images/Parker.jpg" class="rounded-circle" alt="Parker Caskey" width="246" height="246">
+            </div>
+            <div class="col-md-4">
+                <h3>Details</h3>
+                <p>
+                    <strong>Name:</strong> Parker Caskey<br>
+                    <strong>Age:</strong> 29 years<br>
+                    <strong>Location:</strong> Earth		
+                </p>
             </div>
         </div>
     </section>
 
-    <section class="container-fluid bg-grey pt-3">
+    <section id="experience" class="container-fluid bg-grey pt-3">
         <div class="container">
             <div class="wp3">
-                <h2 class="font-ubuntu text-white text-center mb-3">Experiences</h2>
+                <h2 class="font-ubuntu text-white text-center mb-3">Experience</h2>
                 <div class="experience row">
                     <div class="col-md-4">
                         <h4 class="text-white">Agilutions</h4>
@@ -147,7 +161,7 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid pt-3">
+    <section id="education" class="container-fluid pt-3">
         <div class="container">
             <div class="wp4">
                 <h2 class="font-ubuntu text-center mb-3">Education</h2>            
@@ -181,7 +195,7 @@
         </div>
     </section>
 
-    <section class="container-fluid bg-grey pt-3">
+    <section id="skills" class="container-fluid bg-grey pt-3">
         <div class="container wp5"> 
             <h2 class="font-ubuntu text-center text-white">Technical Skills</h2>  
             <div class="row">
@@ -243,6 +257,8 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>   
     <script src="js/main.js"></script>
 </body>
