@@ -4,11 +4,6 @@ $(document).ready(function () {
 
 function init() {
     setHeroHeight();
-    $(window).scroll(function() {
-        var scrolledY = $(window).scrollTop();
-        $('#hero').css('background-position', 'left ' + ((scrolledY)) + 'px');
-      });
-
     setWaypoints();
     applyClickEvent();
 }
