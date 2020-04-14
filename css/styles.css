@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5 {
 section.container {
   color: #2a3e45;
 }
-.wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8, .wp9 {
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8, .wp9, .wp-footer, .wp-social-icons, .wp-brand-icons {
   visibility: hidden
 }
 .fadeIn {
@@ -71,4 +71,17 @@ section.container {
   .hero .scroll-down {
     width: 100%;
     left: 0px;
-}}
+  }
+}
+.experience.row {
+  border-bottom: solid;
+  border-color: white;
+  border-width: thin;
+  margin-bottom: 1rem;
+}
+.education.row {
+  border-bottom: solid;
+  border-color: #2a3e45;
+  border-width: thin;
+  margin-bottom: 1rem;
+}
