@@ -94,3 +94,10 @@ section.container {
 .no-bottom-border {
   border-bottom: none !important;
 };
+@media screen and(max-width:800px) {
+  .hero:background {
+    attachment: scroll;
+  }
+}
+    
+        
