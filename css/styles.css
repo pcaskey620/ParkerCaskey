@@ -94,8 +94,5 @@ section.container {
 .no-bottom-border {
   border-bottom: none !important;
 };
-@media only screen and (max-width: 767px) and (orientation: portrait) {
-  .hero {
-    background-attachment: scroll;
-  }
-}
+
+        
