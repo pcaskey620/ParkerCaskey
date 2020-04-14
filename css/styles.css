@@ -1,8 +1,11 @@
-
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 p {
-  font-family: 'Raleway';
+  font-family: 'Raleway', 'Open Sans', sans-serif;
   color: rgba(28,54,83,0.6);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 footer p {
   font-size: 1rem;
@@ -13,12 +16,12 @@ a {
 a:hover{
   color: #2a3e45;
 }
-.font-ubuntu {
-  font-family: 'Ubuntu';
+h1, h2, h3, h4, h5 {
+  font-family: 'Ubuntu','Open Sans', sans-serif;
   color: #2a3e45;
 }
 .hero {
-  min-height: 750px;
+  min-height: 600px;
   background-image: url("../images/ParkerSnowshoeing.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -31,17 +34,28 @@ a:hover{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.hero .scroll-down {
+  height: 80px;
+  width: 110px;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 5%;
+  background-color: #2a3e45;
+  text-align: center;
+  z-index: 6;
+  margin-bottom: 0px;
+}
+.scroll-down .fas {
+  padding-top: 40px;
+}
 .icon {
-  margin-right: 1rem;
-  margin-left: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   font-size: 40px;
 }
 .bg-grey {
   background-color:#2a3e45;
 }
-.bg-grey a {
+.text-white{
   color: white;
 }
 section.container {
@@ -53,3 +67,8 @@ section.container {
 .fadeIn {
   visibility: visible
 }
+@media (max-width: 767px) {
+  .hero .scroll-down {
+    width: 100%;
+    left: 0px;
+}}
