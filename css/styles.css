@@ -85,3 +85,6 @@ section.container {
   border-width: thin;
   margin-bottom: 1rem;
 }
+.no-bottom-border {
+  border-bottom: none !important;
+};
