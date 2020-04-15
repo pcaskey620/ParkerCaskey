@@ -170,3 +170,6 @@ button.navbar-toggler [aria-expanded="true"] {
   -o-transition: width 1s ease;
   transition: width 1s ease;
 }
+.btn:focus {
+  box-shadow: none;
+}
