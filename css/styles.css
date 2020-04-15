@@ -65,14 +65,14 @@ h1, h2, h3, h4, h5 {
   padding-top: 40px;
 }
 #nav {
-  position: absolute;
-  left: 5%;
-  right: 5%;
-  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  min-height: 80px;
   background-color: #2a3e45;
 }
 #profile {
-  padding-top: 100px;
+  padding-top: 2rem;
 }
 .icon {
   font-size: 40px;
@@ -97,6 +97,11 @@ section.container {
     width: 100%;
     left: 0px;
   }
+}
+.navbar-toggler {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .experience.row {
   border-bottom: solid;
@@ -138,4 +143,12 @@ section.container {
 .mx-a {
   margin-left: auto;
   margin-right: auto;
+}
+button:focus {
+  outline: none;
+}
+button.navbar-toggler [aria-expanded="true"] {
+  left: unset;
+  right: unset;
+  width: 100%;
 }
