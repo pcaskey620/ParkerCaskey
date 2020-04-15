@@ -6,20 +6,7 @@ function init() {
     setHeroHeight();
     setWaypoints();
     applyClickEvent();
-
-
-    $('#nav').on('show.bs.collapse', function () {
-        console.log('show');
-        $('#nav').removeClass('w-fit');
-        $('#nav').addClass('w-100');
-    });
-
-    $('#nav').on('hidden.bs.collapse', function () {
-        console.log('hide');
-        $('#nav').removeClass('w-100');
-        $('#nav').addClass('w-fit');
-    });
-
+    applyNavCollapseEvents();
 }
 
 function setWaypoints() {
@@ -91,5 +78,34 @@ function applyClickEvent()
 			}, 400);
 		}
 		return false;
+	});
+}
+
+function applyNavCollapseEvents() {
+    $('#nav').on('show.bs.collapse', function () {
+        $('#nav').removeClass('w-fit');
+        $('#nav').addClass('w-100');
+    });
+
+    $('#nav').on('hidden.bs.collapse', function () {
+        $('#nav').removeClass('w-100');
+        $('#nav').addClass('w-fit');
+    });
+
+    $(window).on('resize', function() 
+	{  	
+        let newWidth = $(window).width(); 
+		if (newWidth > 989 && newWidth < 1000) {
+            $('#nav').removeClass('w-fit');
+            $('#nav').removeClass('w-100');
+        } else if (newWidth < 990 && newWidth > 900) {
+            if ($('#navbarNavAltMarkup.show')) {
+                $('#nav').removeClass('w-fit');
+                $('#nav').addClass('w-100');
+            } else {
+                $('#nav').removeClass('w-100');
+                $('#nav').addClass('w-fit');
+            }
+        }
 	});
 }
