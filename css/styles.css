@@ -215,3 +215,9 @@ button.navbar-toggler [aria-expanded="true"] {
 .navbar-toggler.collapsed .bottom-bar, .icon-button.collapsed .bottom-bar {
   transform: rotate(0);
 }
+.font-amatic {
+  font-family: 'Amatic SC', cursive;
+}
+#parks-and-wils-logo {
+  height: 32px;
+}
