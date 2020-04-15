@@ -6,6 +6,20 @@ function init() {
     setHeroHeight();
     setWaypoints();
     applyClickEvent();
+
+
+    $('#nav').on('show.bs.collapse', function () {
+        console.log('show');
+        $('#nav').removeClass('w-fit');
+        $('#nav').addClass('w-100');
+    });
+
+    $('#nav').on('hidden.bs.collapse', function () {
+        console.log('hide');
+        $('#nav').removeClass('w-100');
+        $('#nav').addClass('w-fit');
+    });
+
 }
 
 function setWaypoints() {

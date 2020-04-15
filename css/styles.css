@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 #nav {
   margin-left: auto;
   margin-right: auto;
-  width: fit-content;
+  width: 10%;
   min-height: 80px;
   background-color: #2a3e45;
 }
@@ -96,6 +96,12 @@ section.container {
   .hero .scroll-down {
     width: 100%;
     left: 0px;
+  }
+  #nav {
+    width: 20%
+  }
+  .w-fit {
+    width: 20%; 
   }
 }
 .navbar-toggler {
@@ -151,4 +157,16 @@ button.navbar-toggler [aria-expanded="true"] {
   left: unset;
   right: unset;
   width: 100%;
+}
+.w-100 {
+  width: 100%;
+}
+.w-fit {
+  width: 10%; 
+}
+.w-ease {
+  -webkit-transition: width 1s ease;
+  -moz-transition: width 1s ease;
+  -o-transition: width 1s ease;
+  transition: width 1s ease;
 }
