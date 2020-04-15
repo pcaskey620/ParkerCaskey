@@ -173,3 +173,45 @@ button.navbar-toggler [aria-expanded="true"] {
 .btn:focus {
   box-shadow: none;
 }
+
+.icon-bar {
+	width: 22px; 
+	height: 2px;
+  background-color: white;
+	display: block;
+	transition: all 0.2s;
+  margin-top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-toggler {
+  border: none;
+  display: block;
+  background: transparent !important;
+}
+
+.navbar-toggler .top-bar, .icon-button .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+ 
+.navbar-toggler .middle-bar, .icon-button .middle-bar {
+  opacity: 0;
+}
+ 
+.navbar-toggler .bottom-bar, .icon-button .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+ 
+.navbar-toggler.collapsed .top-bar, .icon-button.collapsed .top-bar {
+  transform: rotate(0);
+}
+ 
+.navbar-toggler.collapsed .middle-bar, .icon-button.collapsed .middle-bar {
+  opacity: 1;
+}
+ 
+.navbar-toggler.collapsed .bottom-bar, .icon-button.collapsed .bottom-bar {
+  transform: rotate(0);
+}
