@@ -89,7 +89,7 @@ section.container {
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8, .wp9, .wp-footer, .wp-social-icons, .wp-brand-icons {
   visibility: hidden
 }
-.fadeIn {
+.fadeIn, .fadeInLeft, .fadeInRight, .bounceInUp {
   visibility: visible
 }
 @media (max-width: 990px) {
@@ -177,12 +177,15 @@ button.navbar-toggler [aria-expanded="true"] {
 .icon-bar {
 	width: 22px; 
 	height: 2px;
-  background-color: white;
+  background-color: rgba(28,54,83,0.6);
 	display: block;
 	transition: all 0.2s;
   margin-top: 4px;
   margin-left: auto;
   margin-right: auto;
+}
+.icon-bar-white {
+  background-color: #fff !important;
 }
 .navbar-toggler {
   border: none;
