@@ -92,16 +92,16 @@
         </div>
         <hr>
         <div class="row">
-            <div class="wp2 col-md-6">
+            <div class="wp2 col-md-6 my-auto">
                 <h3>About me</h3>
-                <p>
-                    I'm a creative software developer with five years of experience building web applications using ASP.NET.                    
+                <p class="pt-3">
+                    I'm a software developer with five years of experience building web applications using ASP.NET.                    
                     I enjoy creating beautiful online experiences and learning new technologies.
                     Collaborative team environments are where I thrive.                     		
                 </p>
             </div>
-            <div class="wp3 col-md-6 text-center py-2">
-                <img src="images/Parker.jpg" class="rounded-circle" alt="Parker Caskey" width="246" height="246">
+            <div class="wp3 col-md-6 text-center py-2 my-auto">
+                <img src="images/Parker.jpg" id="img-about-me" class="rounded-circle img-fluid" alt="Parker Caskey" />
             </div>        
         </div>
     </section>
@@ -127,13 +127,13 @@
             <div class="wp5">
                 <h2 class="text-center mb-3">Experience</h2>
                 <div class="experience row">
-                    <div class="col-md-4">
+                    <div class="col-sm-12 col-md-4">
                         <h4 class="">Agilutions</h4>
                         <p class="experience-period">
                             February 2016 - January 2020
                         </p>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-sm-12 col-md-8">
                         <p class="">
                             <strong>Software Developer</strong>      
                             <button class="btn d-md-none d-lg-none d-xl-none float-right icon-button collapsed" type="button" data-toggle="collapse" data-target="#collapseAgilutions" aria-expanded="false" aria-controls="collapseExample">
@@ -142,30 +142,32 @@
                                 <span class="icon-bar bottom-bar"></span>
                             </button>                         
                             <div id="collapseAgilutions" class="collapse">
-                                Passionate member of a small team that specializes in enhancing and customizing an enterprise-level Association Management System called netFORUM.                                 
-                                Primary developer on numerous custom implementations of online certification application processes.  
-                                Worked directly with core project team to provide estimated development efforts and produce solutions to clients' business needs. 
-                                Managed deployments across development, test, and production environments. 
-                                Recent projects include integrations with 3rd party applications, server side address geocoding using Google Maps API, and data visualization.
+                                <ul class="experience-bullets">
+                                    <li>Utilized ASP.NET to enhance and customize NetForum, an enterprise-level Association Management System</li>
+                                    <li>Leveraged Bootstrap along with custom JavaScript and CSS to produce responsive client web pages</li>
+                                    <li>Primary developer on several implementations of online certification application processes </li>
+                                    <li>Maintained and extended SQL Server databases</li>
+                                </ul>
                             </div>
                             <div class="d-none d-sm-none d-md-block">
-                                Passionate member of a small team that specializes in enhancing and customizing an enterprise-level Association Management System called netFORUM.                                 
-                                Primary developer on numerous custom implementations of online certification application processes. 
-                                Worked directly with core project team to provide estimated development efforts and produce solutions to clients' business needs. 
-                                Managed deployments across development, test, and production environments. 
-                                Recent projects include integrations with 3rd party applications, server side address geocoding using Google Maps API, and data visualization.
-                            </div>                            
+                                <ul class="experience-bullets">
+                                    <li>Utilized ASP.NET to enhance and customize NetForum, an enterprise-level Association Management System</li>
+                                    <li>Leveraged Bootstrap along with custom JavaScript and CSS to produce responsive client web pages</li>
+                                    <li>Primary developer on several implementations of online certification application processes </li>
+                                    <li>Maintained and extended SQL Server databases</li>
+                                </ul>
+                            </div>                                                        
                         </p>
                     </div>                                            
                 </div>
                 <div class="experience row">
-                    <div class="col-md-4">
+                    <div class="col-sm-12 col-md-4">
                         <h4 class="">Association Voice</h4>
                         <p class="experience-period ">
                             July 2014 - January 2016
                         </p>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-sm-12 col-md-8">
                         <p class="">
                             <strong>Software Developer</strong>  
                             <button class="btn d-md-none d-lg-none d-xl-none float-right icon-button collapsed" type="button" data-toggle="collapse" data-target="#collapseAV" aria-expanded="false" aria-controls="collapseExample">
@@ -174,28 +176,30 @@
                                 <span class="icon-bar bottom-bar"></span>
                             </button>
                             <div id="collapseAV" class="collapse">
-                                Full stack software developer on an agile web application development team utilizing the .NET framework.
-                                Exposed to various technologies such as: Kendo UI, Ext JS, jQuery, WPF/XAML, PowerShell
-                                Independently and collaboratively work on new features, product enhancements, and support tasks.
-                                Version control maintained through TortoiseSVN.
+                                <ul class="experience-bullets">
+                                    <li>Instrumental in user interface overhaul exhanging Ext JS components for Kendo UI widgets</li>
+                                    <li>Collaborated on project to implement secure password complexity requirements and password hashing</li>
+                                    <li>Developed integration tool for other system such as QuickBooks and TOPS software</li>                                    
+                                </ul>
                             </div>  
                             <div class="d-none d-sm-none d-md-block">
-                                Full stack software developer on an agile web application development team utilizing the .NET framework.
-                                Exposed to various technologies such as: Kendo UI, Ext JS, jQuery, WPF/XAML, PowerShell
-                                Independently and collaboratively work on new features, product enhancements, and support tasks.
-                                Version control maintained through TortoiseSVN.
+                                <ul class="experience-bullets">
+                                    <li>Instrumental in user interface overhaul exhanging Ext JS components for Kendo UI widgets</li>
+                                    <li>Collaborated on project to implement secure password complexity requirements and password hashing</li>
+                                    <li>Developed integration tool for other system such as QuickBooks and TOPS software</li>                                    
+                                </ul>
                             </div>                             
                         </p>
                     </div>
                 </div>
                 <div class="experience row no-bottom-border">
-                    <div class="col-md-4">
+                    <div class="col-sm-12 col-md-4">
                         <h4 class="">Agilum Healthcare Intelligence</h4>
                         <p class="experience-period ">
                             May 2013 - August 2013
                         </p>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-sm-12 col-md-8">
                         <p class="">
                             <strong>Intern</strong> 
                             <button class="btn d-md-none d-lg-none d-xl-none float-right icon-button collapsed" type="button" data-toggle="collapse" data-target="#collapseAgilum" aria-expanded="false" aria-controls="collapseExample">
@@ -204,15 +208,19 @@
                                 <span class="icon-bar bottom-bar"></span>
                             </button>
                             <div id="collapseAgilum" class="collapse">
-                                Participated in an agile development environment through daily scrum and weekly operations (sprint planning) meetings.
-                                Developed and tested Oracle PL/SQL packages and procedures for product enhancements and defect fixes under senior developer supervision.
-                                Assisted with quality assurance on BI dashboard solution (OBIEE / APEX).
-                            </div> 
+                                <ul class="experience-bullets">
+                                    <li>Developed and tested Oracle PL/SQL packages and procedures for product enhancements and defect fixes</li>
+                                    <li>Participated in an agile development environment through daily scrum and weekly sprint planning meetings</li>                                    
+                                    <li>Assisted with quality assurance on BI dashboard solution (OBIEE / APEX)</li>
+                                </ul>
+                            </div>                               
                             <div class="d-none d-sm-none d-md-block">
-                                Participated in an agile development environment through daily scrum and weekly operations (sprint planning) meetings.
-                                Developed and tested Oracle PL/SQL packages and procedures for product enhancements and defect fixes under senior developer supervision.
-                                Assisted with quality assurance on BI dashboard solution (OBIEE / APEX).
-                            </div>                              
+                                <ul class="experience-bullets">
+                                    <li>Developed and tested Oracle PL/SQL packages and procedures for product enhancements and defect fixes</li>
+                                    <li>Participated in an agile development environment through daily scrum and weekly sprint planning meetings</li>                                    
+                                    <li>Assisted with quality assurance on BI dashboard solution (OBIEE / APEX)</li>
+                                </ul>
+                            </div>                             
                         </p>
                     </div>
                 </div>
@@ -224,26 +232,26 @@
             <div class="wp6">
                 <h2 class="text-center mb-3 text-white">Education</h2>            
                 <div class="education row">
-                    <div class="col-md-4">
+                    <div class="col-sm-12 col-md-4">
                         <h4 class=" text-white">Middle Tennessee State University</h4>
                         <p class="experience-period text-white">
                             August 2009 - May 2014
                         </p>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-sm-12 col-md-8">
                         <p class=" text-white">
                             <strong>Bachelor's Degree, Computer Information Systems</strong>                               
                         </p>
                     </div>
                 </div>
                 <div class="education row no-bottom-border">
-                    <div class="col-md-4">
+                    <div class="col-sm-12 col-md-4">
                         <h4 class=" text-white">University of Sydney</h4>
                         <p class="experience-period text-white">
                             August 2009 - December 2014
                         </p>
                     </div>
-                    <div class="col-md-8">                    
+                    <div class="col-sm-12 col-md-8">                    
                         <p class=" text-white">
                             <strong>AustraLearn Semester Abroad Program</strong>                               
                         </p>
@@ -307,9 +315,9 @@
         </div>
     </section>
     
-    <footer class="container mt-3 wp-footer">
+    <footer class="container mt-3">
         <div class="row d-flex justify-content-center">
-            <p>Built by Parker</p>
+            <p class="wp-footer">Built by Parker</p>
         </div>
     </footer>
 

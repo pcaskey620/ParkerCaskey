@@ -11,7 +11,7 @@ function init() {
 
 function setWaypoints() {
     $('.wp1').waypoint(function () {
-        $('.wp1').addClass('animated fadeIn');
+        $('.wp1').addClass('animated zoomInUp');
     }, {
         offset: '75%'
     });

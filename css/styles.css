@@ -89,7 +89,7 @@ section.container {
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8, .wp9, .wp-footer, .wp-social-icons, .wp-brand-icons {
   visibility: hidden
 }
-.fadeIn, .fadeInLeft, .fadeInRight, .bounceInUp {
+.fadeIn, .fadeInLeft, .fadeInRight, .bounceInUp, .zoomInUp, .rubberBand {
   visibility: visible
 }
 @media (max-width: 990px) {
@@ -223,4 +223,15 @@ button.navbar-toggler [aria-expanded="true"] {
 }
 #parks-and-wils-logo {
   height: 32px;
+}
+
+.experience-bullets {
+  list-style-type: disc;
+}
+.experience-bullets li {
+  font-family: 'Raleway', 'Open Sans', sans-serif;
+  padding-top: .5rem;
+}
+#img-about-me{
+  padding: 3rem;
 }
