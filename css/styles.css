@@ -235,3 +235,10 @@ button.navbar-toggler [aria-expanded="true"] {
 #img-about-me{
   padding: 3rem;
 }
+#resume-download {
+  color: rgba(28,54,83,0.6);
+  text-decoration-line: none;
+}
+#resume-download:hover {
+  text-decoration-line: none;
+}
