@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5 {
 }
 .hero {
   min-height: 600px;
-  background-image: url("../images/ParkerSnowshoeing.jpg");
+  background-image: url("../images/Parker-Caskey-Banff-Canada.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,6 +103,9 @@ section.container {
   .w-fit {
     width: 20%; 
   }
+  .hero {
+    background-image: url("../images/Parker-Caskey-Banff-Canada-Small-Screen.JPG");
+  }
 }
 .navbar-toggler {
   width: 100%;
@@ -139,12 +142,11 @@ section.container {
   color: white;
   border-bottom: none;
 }
-@media (min-width: 992px)
-  {
+@media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
       padding-right: 1rem;
       padding-left: 1rem;
-  }
+  }  
 }
 .mx-a {
   margin-left: auto;
