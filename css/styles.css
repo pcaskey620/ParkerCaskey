@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5 {
 }
 .hero {
   min-height: 600px;
-  background-image: url("../images/Parker-Caskey-Banff-Canada.jpg");
+  background-image: url("../images/Parker%20Caskey%20Banff%20Canada.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,7 +104,7 @@ section.container {
     width: 20%; 
   }
   .hero {
-    background-image: url("../images/Parker-Caskey-Banff-Canada-Small-Screen.jpg");
+    background-image: url("../images/Parker%20Caskey%20Banff%20Canada%20Small%20Screen.jpg");
   }
 }
 .navbar-toggler {
