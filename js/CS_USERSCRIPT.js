@@ -1,3 +1,7 @@
+if (typeof USERSCRIPT == "undefined")
+{
+      USERSCRIPT = {};
+}
 USERSCRIPT.displayPopupWindow = function(aParams) {
 	var strURL, w, h, scroll;
 	for (args in aParams) {
